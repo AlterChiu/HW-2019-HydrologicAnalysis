@@ -18,7 +18,7 @@ public class YearMaxProcessing {
 	// go throw after the target gridName
 	// using when processing break
 	//====================================
-	private boolean skip = true;
+	private boolean skip = false;
 	private String targetGridName = "121.4562_24.0437";
 	//====================================
 

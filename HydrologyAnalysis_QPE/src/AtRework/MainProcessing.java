@@ -6,6 +6,7 @@ import java.util.Map;
 
 import AtRework.GridModel.Grid;
 import AtRework.Rainfall.Original.Adaptor.RainfallAdaptor;
+import AtRework.Rainfall.Original.ToAscii.PiXmlToAscii;
 import AtRework.Rainfall.YearMax.YearMaxProcessing;
 import AtRework.Statics.StatisticsInitialize;
 import AtRework.Statics.Distribution.DistributionProcessing;
@@ -19,23 +20,26 @@ public class MainProcessing {
 		// TODO Auto-generated method stub
 
 		// STEP 1 convert original data to specific folder structure
-		String sourceFilesFolder = "W:\\OneDrive\\工作用\\計劃案\\110 - 北科\\格網水文\\原始資料\\rainfallData\\";
-		new RainfallAdaptor(sourceFilesFolder);
+//		String sourceFilesFolder = "W:\\OneDrive\\工作用\\計劃案\\110 - 北科\\格網水文\\原始資料\\rainfallData\\";
+//		new RainfallAdaptor(sourceFilesFolder);
 
 		// STEP 2 statics yearMax for each duration
-		new YearMaxProcessing();
+//		new YearMaxProcessing();
 
 		// STEP 3 initialize the "Statistics" folder structure
-		new StatisticsInitialize();
+//		new StatisticsInitialize();
 
 		// STEP 4 convert yearMax rainfall from grid folder to maxRainfall .ascFile for
 		// each year
-		new YearMaxConvert();
+//		new YearMaxConvert();
 
 		// STEP 5 statics for each distribution in selected years(which between
 		// startYear to endYear)
-		new DistributionProcessing();
+//		new DistributionProcessing();
 
+		// EXTRA
+		// convert piXml to ascii
+		new PiXmlToAscii("T:\\FEWS 雨量資料_2020\\");
 	}
 
 }

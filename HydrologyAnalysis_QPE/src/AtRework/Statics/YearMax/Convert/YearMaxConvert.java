@@ -47,6 +47,7 @@ public class YearMaxConvert {
 
 		toAscii.setNullValue("-99");
 		toAscii.setValueScale(Global.dataDecimal);
+		toAscii.setCoordinateScale(6);
 		toAscii.setCellSize(Global.qpeGridSize);
 		toAscii.start();
 
