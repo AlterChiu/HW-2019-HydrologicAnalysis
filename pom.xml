@@ -46,7 +46,7 @@
 		<poi.version>3.17</poi.version>
 		<poiOoxml.version>3.17</poiOoxml.version>
 		<poiOoxmlSchemas.version>3.17</poiOoxmlSchemas.version>
-		<poiScratchpad.version>3.17</poiScratchpad.version>
+		<poiScratchpad.version>5.2.1</poiScratchpad.version>
 		<staxApi.version>1.0-2</staxApi.version>
 		<xmlBean.version>1.5.5</xmlBean.version>
 
