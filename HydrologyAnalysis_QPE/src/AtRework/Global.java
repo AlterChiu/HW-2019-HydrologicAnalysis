@@ -15,11 +15,11 @@ public class Global {
 	public static String rainfallFolder = rootFolder + "RainfallData\\";
 	public static String staticsFolder = rootFolder + "Statics\\";
 	public static String asciiFolder = rootFolder + "AsciiData\\";
-	
+
 	public static String sqlLiteAdd = "B:\\SqlLite\\QPESUMS\\QPE_GRID.db";
 	public static String valueTable = "GridRainfall_";
 	public static String gridTable = "Grid";
-	
+
 	public static int dataDecimal = 4;
 	public static int coordinateDecimal = 6;
 	public static double qpeGridSize = 0.0125;
@@ -29,10 +29,10 @@ public class Global {
 	public static String timeFormat = dateFormat + " HH";
 
 //	public static int[] rainfallDuration = new int[] { 1, 2, 3, 6, 9, 12, 18, 24, 48, 72 };
-	public static int[] rainfallDuration = new int[] { 1, 3, 6, 12, 24, 48 };
+	public static int[] rainfallDuration = new int[] { 3, 6, 12, 24, 48 };
 	public static int maxDuration = 72;
 //	public static int[] rainfallReturnYear = new int[] { 2, 5, 10, 50, 100, 150, 200, 500 };
-	public static int[] rainfallReturnYear = new int[] { 2, 5, 10 };
+	public static double[] rainfallReturnYear = new double[] { 1.1 };
 
 	public static enum rainfallDistribute {
 		EV1("EV"), LN3("LN"), LPT3("LPT3"), PT3("PT3");

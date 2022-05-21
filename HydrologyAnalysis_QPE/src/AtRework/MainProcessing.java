@@ -35,11 +35,11 @@ public class MainProcessing {
 
 		// STEP 5 statics for each distribution in selected years(which between
 		// startYear to endYear)
-//		new DistributionProcessing();
+		new DistributionProcessing();
 
 		// EXTRA
 		// convert piXml to ascii
-		new PiXmlToAscii("T:\\FEWS 雨量資料_2020\\");
+//		new PiXmlToAscii("T:\\FEWS 雨量資料_2020\\");
 	}
 
 }

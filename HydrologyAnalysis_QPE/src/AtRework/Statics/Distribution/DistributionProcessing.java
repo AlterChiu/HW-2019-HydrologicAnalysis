@@ -56,7 +56,7 @@ public class DistributionProcessing {
 
 			// STEP 7 output to ascFiles
 			this.outputToAscii(distributionFolder, duration);
-			
+
 			// SETP 8 release memory
 			this.clear();
 		}
@@ -87,7 +87,7 @@ public class DistributionProcessing {
 	// STEP 6 run all distribution and returnPeriod
 	private void getReturnPeriodInEachDis(int row, int column, List<Double> gridValue) throws Exception {
 		for (Global.rainfallDistribute distribution : Global.rainfallDistribute.values()) {
-			for (int returnPeriod : Global.rainfallReturnYear) {
+			for (double returnPeriod : Global.rainfallReturnYear) {
 
 				// setting keyName for outMap
 				String keyName = distribution.getName() + "_" + returnPeriod;
@@ -125,7 +125,7 @@ public class DistributionProcessing {
 			}
 		});
 	}
-	
+
 	// STEP 8 release memory
 	private void clear() {
 		this.asciiList.clear();
