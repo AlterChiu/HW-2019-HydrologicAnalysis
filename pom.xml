@@ -43,7 +43,7 @@
 		<!-- ++++++++++++++ POI +++++++++++++ -->
 		<!-- +++++++++++++++++++++++++++++++ -->
 		<commonCollection.version>4.4</commonCollection.version>
-		<poi.version>3.17</poi.version>
+		<poi.version>4.1.1</poi.version>
 		<poiOoxml.version>3.17</poiOoxml.version>
 		<poiOoxmlSchemas.version>3.17</poiOoxmlSchemas.version>
 		<poiScratchpad.version>3.17</poiScratchpad.version>
